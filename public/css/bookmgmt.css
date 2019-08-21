@@ -1,0 +1,66 @@
+    .subbtncl
+	{
+        font-weight:700;
+        font-size:14px;
+        text-transform:uppercase;
+		border-radius:5px 5px;
+    }
+	
+	.subbtncl:focus
+	{
+		outline:none;
+		color:yellow;
+        background-color:black !important;
+        border:1px solid black;
+	}
+
+    .subbtncl:disabled:hover
+	{
+        cursor:not-allowed;
+    }
+
+    .subbtncl:enabled
+	{
+        background-color:yellow;
+        border:1px solid black;
+    }
+
+    .subbtncl:enabled:hover
+	{
+        color:yellow;
+        background-color:black;
+        border:1px solid black;
+    }
+
+    .cstinpbox
+	{
+        border-radius: 10px 10px !important;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .cstinpbox:hover
+	{                
+        background-color: lightyellow;
+    }
+
+    .cstinpbox:focus
+	{                
+        background-color: #fff68f;
+        border-color: darkgray;
+		outline:none;
+    }
+	
+	.row
+	{
+		margin-left:0px !important;
+		margin-right:0px !important;
+	}
+	
+	.linktxt:hover
+	{
+		text-decoration:underline;
+		color:blue;
+		cursor:pointer;
+		user-select:none;
+	}
